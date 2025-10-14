@@ -1,0 +1,23 @@
+{
+  "name": "mr-wo/guess-number",
+  "description": "Console Guess-number game (variant 2)",
+  "type": "project",
+  "bin": [
+    "bin/guess-number"
+  ],
+  "require": {
+    "php": ">=8.0",
+    "wp-cli/php-cli-tools": "^v0.12.6",
+    "ext-pdo": "*",
+    "ext-sqlite3": "*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "authors": [
+        {
+            "name": "Kulebyaka1337",
+            "email": "sergeevserg032@gmail.com"
+        }
+    ]
+}
